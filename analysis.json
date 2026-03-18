@@ -1,0 +1,145 @@
+{
+  "brand": {
+    "name": "Acme Corp",
+    "industry": "Enterprise Logistics & Innovation",
+    "hq": "San Francisco, CA",
+    "logo": "AC",
+    "rating": 4.8,
+    "reviews": 1242,
+    "version": "V2.5.0 Build"
+  },
+  "channels": [
+    {
+      "id": "ch-1",
+      "type": "website",
+      "label": "Website",
+      "handle": "acmecorp.io",
+      "icon": "language",
+      "status": "active",
+      "snippet": "Acme Corp: Leading Enterprise Innovation in Global Logistics...",
+      "score": 82,
+      "color": "#0d7ff2"
+    },
+    {
+      "id": "ch-2",
+      "type": "instagram",
+      "label": "Instagram",
+      "handle": "@acmecorp_official",
+      "icon": "photo_camera",
+      "status": "active",
+      "snippet": "Visual brand storytelling and product showcases...",
+      "score": 74,
+      "color": "#e1306c"
+    },
+    {
+      "id": "ch-3",
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "handle": "AcmeGlobal",
+      "icon": "work",
+      "status": "active",
+      "snippet": "Professional networking and corporate updates...",
+      "score": 88,
+      "color": "#0a66c2"
+    },
+    {
+      "id": "ch-4",
+      "type": "tiktok",
+      "label": "TikTok",
+      "handle": "@acme_tiktok",
+      "icon": "music_note",
+      "status": "active",
+      "snippet": "Short-form video content and trend participation...",
+      "score": 61,
+      "color": "#ff0050"
+    },
+    {
+      "id": "ch-5",
+      "type": "xiaohongshu",
+      "label": "Xiaohongshu",
+      "handle": "Acme_Global",
+      "icon": "auto_stories",
+      "status": "monitoring",
+      "snippet": "Community-driven lifestyle branding and UGC...",
+      "score": 45,
+      "color": "#ff2442"
+    },
+    {
+      "id": "ch-6",
+      "type": "threads",
+      "label": "Threads",
+      "handle": "@acmecorp",
+      "icon": "forum",
+      "status": "monitoring",
+      "snippet": "Real-time dialogue and trend participation...",
+      "score": 38,
+      "color": "#000000"
+    }
+  ],
+  "presenceScores": {
+    "clarity": { "score": 78, "delta": 2.1, "trend": "up" },
+    "consistency": { "score": 62, "delta": -0.4, "trend": "down" },
+    "credibility": { "score": 91, "delta": 1.8, "trend": "up" },
+    "conversion": { "score": 44, "delta": -3.2, "trend": "down" }
+  },
+  "overallScore": 69,
+  "intelligenceGaps": [
+    {
+      "id": "gap-1",
+      "title": "Narrative Fragmentation",
+      "severity": "high",
+      "description": "Expansion into Xiaohongshu and Threads shows significant tone variance compared to LinkedIn. Consistency scores dropped by 0.4 points this month.",
+      "recommendation": "Align brand voice guidelines across all emerging platforms."
+    },
+    {
+      "id": "gap-2",
+      "title": "Engagement Leakage",
+      "severity": "medium",
+      "description": "High engagement on TikTok and Facebook is not translating to website visits. CTAs across emerging channels remain unoptimized.",
+      "recommendation": "Implement trackable CTAs and cross-channel journey mapping."
+    },
+    {
+      "id": "gap-3",
+      "title": "Trust but Weak Conversion",
+      "severity": "high",
+      "description": "High credibility scores from testimonials are not being leveraged at the point of action. Missing CTAs on landing pages.",
+      "recommendation": "Embed social proof directly into conversion funnels."
+    }
+  ],
+  "narrativeSummary": "Acme Corp maintains a complex multi-channel profile. While Google Maps and LinkedIn anchor the brand's professional credibility, new visual-first channels like Xiaohongshu and TikTok are driving high engagement but creating narrative friction. The expansion into Threads shows a brand attempting real-time relevance, yet the core conversion engine (Website) remains disconnected from this new energy, leading to a visible 'engagement-to-action' gap across the digital ecosystem.",
+  "competitor": {
+    "name": "Competitor X",
+    "scores": {
+      "clarity": 71,
+      "consistency": 75,
+      "credibility": 84,
+      "conversion": 67
+    },
+    "advantages": [
+      "Higher Local Trust score in North America (+15%)",
+      "Superior checkout flow conversion readiness",
+      "Active engagement on B2B visual channels (Instagram)"
+    ],
+    "opportunities": [
+      "Weaker Video Presence compared to Competitor X",
+      "Lower backlink credibility in trade publications",
+      "Consistency gaps in customer support response times"
+    ],
+    "executiveSummary": "Acme Corp maintains a strong lead in Digital Clarity and Consistency. The messaging architecture is significantly more cohesive across the web and Instagram. However, Competitor X is leveraging a robust YouTube strategy that has granted them higher authority in technical credibility segments. To bridge the gap, Acme Corp should prioritize long-form video content and industry whitepapers.",
+    "sentiment": {
+      "acme": { "positive": 72, "neutral": 20, "negative": 8 },
+      "competitor": { "positive": 65, "neutral": 22, "negative": 13 }
+    }
+  },
+  "dataConnections": [
+    { "id": "dc-1", "name": "Google Maps API", "status": "connected", "description": "Localized presence score & citation analysis" },
+    { "id": "dc-2", "name": "LinkedIn Insights", "status": "connected", "description": "Professional engagement metrics" },
+    { "id": "dc-3", "name": "Instagram Graph API", "status": "pending", "description": "Visual content performance tracking" },
+    { "id": "dc-4", "name": "Web Analytics", "status": "connected", "description": "Traffic, bounce rate & conversion data" }
+  ],
+  "user": {
+    "name": "Alex Chen",
+    "role": "Admin Account",
+    "avatar": "AC"
+  }
+}
